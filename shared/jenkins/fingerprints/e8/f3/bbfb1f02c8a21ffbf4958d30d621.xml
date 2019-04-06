@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-06 16:51:10.129 UTC</timestamp>
+  <original>
+    <name>ansible-java/devopsarea:devopsarea</name>
+    <number>8</number>
+  </original>
+  <md5sum>e8f3bbfb1f02c8a21ffbf4958d30d621</md5sum>
+  <fileName>devopsarea:devopsarea-1.0.war</fileName>
+  <usages>
+    <entry>
+      <string>ansible-java/devopsarea:devopsarea</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>ansible-java</string>
+      <ranges>8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,49 @@
+Started by user [8mha:////4MaMsFpg/IDLBn9vD5IU+gWyfhwL3bthYfHSghgWTw/SAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9jMy8lMTySgB8ZtquwgAAAA==[0mhindawy
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/ansible-java
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.6.0/apache-maven-3.6.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/hindawy-maven on Jenkins
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/mahmoudelhindawy/java-testapp.git
+ > git init /var/lib/jenkins/workspace/ansible-java # timeout=10
+Fetching upstream changes from https://github.com/mahmoudelhindawy/java-testapp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mahmoudelhindawy/java-testapp.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/mahmoudelhindawy/java-testapp.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mahmoudelhindawy/java-testapp.git # timeout=10
+Fetching upstream changes from https://github.com/mahmoudelhindawy/java-testapp.git
+ > git fetch --tags --progress https://github.com/mahmoudelhindawy/java-testapp.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1559da6deb8d0dc7e10b7ff6b28fe8af31b05ab4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1559da6deb8d0dc7e10b7ff6b28fe8af31b05ab4
+Commit message: "Update HelloWorld.java"
+First time build. Skipping changelog.
+[ansible-java] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/hindawy-maven/bin/mvn install
+FATAL: command execution failed
+java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+Caused: java.io.IOException: Cannot run program "/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/hindawy-maven/bin/mvn" (in directory "/var/lib/jenkins/workspace/ansible-java"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at hudson.Proc$LocalProc.<init>(Proc.java:249)
+	at hudson.Proc$LocalProc.<init>(Proc.java:218)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:936)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:455)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:466)
+	at hudson.tasks.Maven.perform(Maven.java:368)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.build(MavenModuleSetBuild.java:945)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:683)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1816)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:543)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-05 12:54:09.72 UTC</timestamp>
+  <md5sum>dd0b65e3efcf36a2d0f0f51d2608d06f</md5sum>
+  <fileName>com.sparkjava:spark-core-2.9.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>ansible-java/devopsarea:devopsarea</string>
+      <ranges>2-9</ranges>
+    </entry>
+    <entry>
+      <string>ansible-java</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

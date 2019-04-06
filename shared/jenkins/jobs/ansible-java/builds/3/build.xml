@@ -1,0 +1,150 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>hindawy</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.6">
+              <sha1>42d63a93136165e7a924c71e6f22f42f3cf2fc4b</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/mahmoudelhindawy/java-testapp.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/ansible-java</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.eclipse.jetty.websocket:websocket-common-9.4.15.v20190215.jar</string>
+          <string>7e64eff81b29302b6d8c70f2c3f23b19</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-util-9.4.15.v20190215.jar</string>
+          <string>986499cd8b571c3ddc229e972f260602</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-webapp-9.4.15.v20190215.jar</string>
+          <string>d00880bbc5f4a8a9d172d56d462eaf39</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-server-9.4.15.v20190215.jar</string>
+          <string>f406bc827774665a125068cc8dab5e2a</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-io-9.4.15.v20190215.jar</string>
+          <string>7fb59c495da438962443da48a2f9b958</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty.websocket:websocket-client-9.4.15.v20190215.jar</string>
+          <string>07fac5323cd61a412389909f7d9c47f2</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-xml-9.4.15.v20190215.jar</string>
+          <string>0c4b10efe95ac5c1025b85bae1fef2d0</string>
+        </entry>
+        <entry>
+          <string>com.sparkjava:spark-core-2.9.0.jar</string>
+          <string>dd0b65e3efcf36a2d0f0f51d2608d06f</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty.websocket:websocket-servlet-9.4.15.v20190215.jar</string>
+          <string>9eec20c18fae68193ff94f0289892f62</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-servlet-9.4.15.v20190215.jar</string>
+          <string>2a9b28be89fc7c5114388f981e6dbe51</string>
+        </entry>
+        <entry>
+          <string>devopsarea:devopsarea-1.0.war</string>
+          <string>1ff8643ba1f81337fd5353a89d140482</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty.websocket:websocket-server-9.4.15.v20190215.jar</string>
+          <string>c2c01a05890f60c807d77b69a3d19b02</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-security-9.4.15.v20190215.jar</string>
+          <string>791330b0b59523faf4730911c7f66bb5</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-client-9.4.15.v20190215.jar</string>
+          <string>a083fbba6528f3cddd6701e0813d1be9</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty:jetty-http-9.4.15.v20190215.jar</string>
+          <string>47751eaffe13cc81aca359adeee6b489</string>
+        </entry>
+        <entry>
+          <string>org.slf4j:slf4j-api-1.7.25.jar</string>
+          <string>caafe376afb7086dcbee79f780394ca3</string>
+        </entry>
+        <entry>
+          <string>javax.servlet:javax.servlet-api-3.1.0.jar</string>
+          <string>79de69e9f5ed8c7fcb8342585732bbf7</string>
+        </entry>
+        <entry>
+          <string>devopsarea:devopsarea:pom.xml</string>
+          <string>7b5a15d35ce240f106cd186a3bf91635</string>
+        </entry>
+        <entry>
+          <string>org.eclipse.jetty.websocket:websocket-api-9.4.15.v20190215.jar</string>
+          <string>52ddcc9fd9ac3f6d8a20fcf2aad1e633</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1554565398600</timestamp>
+  <startTime>1554565398629</startTime>
+  <result>FAILURE</result>
+  <duration>34220</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/ansible-java</workspace>
+  <hudsonVersion>2.170</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.9.3">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>noreply</string>
+  </culprits>
+  <mavenVersionUsed>3.6.0</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

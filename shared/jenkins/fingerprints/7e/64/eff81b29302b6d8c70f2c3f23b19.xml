@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-05 12:54:08.891 UTC</timestamp>
+  <md5sum>7e64eff81b29302b6d8c70f2c3f23b19</md5sum>
+  <fileName>org.eclipse.jetty.websocket:websocket-common-9.4.15.v20190215.jar</fileName>
+  <usages>
+    <entry>
+      <string>ansible-java/devopsarea:devopsarea</string>
+      <ranges>2-9</ranges>
+    </entry>
+    <entry>
+      <string>ansible-java</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

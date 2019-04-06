@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-04-05 12:54:09.143 UTC</timestamp>
+  <md5sum>47751eaffe13cc81aca359adeee6b489</md5sum>
+  <fileName>org.eclipse.jetty:jetty-http-9.4.15.v20190215.jar</fileName>
+  <usages>
+    <entry>
+      <string>ansible-java/devopsarea:devopsarea</string>
+      <ranges>2-9</ranges>
+    </entry>
+    <entry>
+      <string>ansible-java</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
